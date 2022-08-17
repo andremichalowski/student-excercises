@@ -1,13 +1,13 @@
 import "./App.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import CampsitesList from "./features/campsites/CampsitesList";
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
+import SpacesList from "./features/spaces/SpacesList";
 
 function App() {
   return (
     <div className="App">
       {/* <Header /> */}
-      <CampsitesList />
+      <SpacesList />
       <h1> Test </h1>
       {/* <Footer /> */}
     </div>
