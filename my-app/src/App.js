@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <Header />
       <SpacesList />
-      <h1> Test </h1>
       <Footer />
     </div>
   );

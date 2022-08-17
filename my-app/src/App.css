@@ -1,12 +1,13 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: 'Lobster', cursive;
+  font-family: "Roboto", sans-serif;
+  padding: 2rem;
 }
 
 .card-title {
@@ -30,7 +31,7 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background-image: linear-gradient(#aaa7a7, rgb(144, 140, 140));
   padding: 20px 0;
   margin-top: 2rem;
 }
@@ -45,11 +46,12 @@ h2 {
   height: 100%;
   margin-right: 2rem;
   max-width: 4rem;
+  padding: 2rem;
 }
 
 .navbar-dark {
-  background-color: #901cad;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
+  background-color: #b8b8b8;
+  background-image: linear-gradient(to right, #bfbcbc, #d5d5d5, #c4c0c5);
   margin-bottom: 2rem;
   min-height: 8rem;
 }
@@ -72,4 +74,16 @@ h2 {
 .page-exit-active {
   opacity: 0;
   transition: 300ms ease-in;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  padding: 0rem 3rem 3rem 3rem;
+  max-width: 600px;
 }

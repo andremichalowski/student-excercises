@@ -9,7 +9,6 @@ const SpacesList = () => {
         return (
           <Col md="5" className="m-4" key={space.id}>
             <SpaceCard space={space} />
-            <h1>SpaceListTest</h1>
           </Col>
         );
       })}
